@@ -1,3 +1,7 @@
+__PAGINA DEL JUEGO:__ https://xastias.github.io/Aventura-2D---Jugable/
+Nota: Lo subi a github porque aca se permite insertar el juego en cualquier pagina, eso nos serivrá para la ultima actividad.
+
+
 __LO QUE FALTA POR PROGRAMAR Y AGREGAR:__
 
 - Programar sistema de guardado.
