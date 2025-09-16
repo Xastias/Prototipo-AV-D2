@@ -19,7 +19,7 @@ public class ComboPlayer : MonoBehaviour
         Combos();
     }
 
-    public void StartCombo() 
+    public void StartCombo()
     {
         attack = false;
         if (combo < 3)
@@ -28,16 +28,16 @@ public class ComboPlayer : MonoBehaviour
         }
     }
 
-    public void Combos() 
+    public void Combos()
     {
-    if (Input.GetKeyDown(KeyCode.R) && !attack)
+        if (Input.GetMouseButtonDown(0) && !attack)
         {
             attack = true;
             anim.SetTrigger("" + combo);
-        }    
+        }
     }
 
-    public void FinishAnim() 
+    public void FinishAnim()
     {
         combo = 0;
         attack = false;

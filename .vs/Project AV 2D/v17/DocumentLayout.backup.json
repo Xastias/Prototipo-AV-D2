@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\davri\\Music\\Project AV 2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\davri\\Music\\Project AV 2D\\Library\\PackageCache\\com.unity.render-pipelines.universal@12.1.12\\Shaders\\Particles\\ParticlesUnlit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@12.1.12\\Shaders\\Particles\\ParticlesUnlit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|c:\\users\\davri\\music\\project av 2d\\assets\\script\\script sket enemys\\triiggerareacheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\script sket enemys\\triiggerareacheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|c:\\users\\davri\\music\\project av 2d\\assets\\script\\script sket enemys\\vidaskelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|c:\\users\\davri\\music\\project av 2d\\assets\\script\\script sket enemys\\skelet_enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\script sket enemys\\skelet_enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Project AV 2D\\assets\\script\\script sket enemys\\vidaskelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\script sket enemys\\vidaskelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ParticlesUnlit.shader",
-              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Library\\PackageCache\\com.unity.render-pipelines.universal@12.1.12\\Shaders\\Particles\\ParticlesUnlit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@12.1.12\\Shaders\\Particles\\ParticlesUnlit.shader",
-              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Library\\PackageCache\\com.unity.render-pipelines.universal@12.1.12\\Shaders\\Particles\\ParticlesUnlit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@12.1.12\\Shaders\\Particles\\ParticlesUnlit.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-09-12T15:59:41.111Z",
+              "Title": "TriiggerAreaCheck.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Script Sket Enemys\\TriiggerAreaCheck.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Script Sket Enemys\\TriiggerAreaCheck.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Script Sket Enemys\\TriiggerAreaCheck.cs",
+              "RelativeToolTip": "Assets\\Script\\Script Sket Enemys\\TriiggerAreaCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T00:08:49.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Skelet_Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Script Sket Enemys\\Skelet_Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Script Sket Enemys\\Skelet_Enemy.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Script Sket Enemys\\Skelet_Enemy.cs",
+              "RelativeToolTip": "Assets\\Script\\Script Sket Enemys\\Skelet_Enemy.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowI4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T00:08:30.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HUD.cs",
               "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\HUD.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\HUD.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VidaSkelt.cs",
               "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Script Sket Enemys\\VidaSkelt.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Script Sket Enemys\\VidaSkelt.cs",
@@ -75,8 +92,7 @@
               "RelativeToolTip": "Assets\\Script\\Script Sket Enemys\\VidaSkelt.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwDgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T02:19:58.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T02:19:58.557Z"
             }
           ]
         }

@@ -15,6 +15,7 @@ public class CharacterController : MonoBehaviour
 
     private BoxCollider2D BC;
     public LayerMask isGrounded;
+    
 
     // Doble salto
     private int jumpCount = 0;
@@ -23,7 +24,7 @@ public class CharacterController : MonoBehaviour
     public float jumpCooldownDuration = 0f;
 
     private bool wasGrounded = false;
-    private bool jumpPressed = false; // Nueva variable
+    private bool jumpPressed = false;
 
     void Start()
     {
@@ -40,7 +41,7 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    void FixedUpdate() 
+    void FixedUpdate()
     {
         Movement();
         if (jumpCooldown > 0f)
@@ -54,7 +55,7 @@ public class CharacterController : MonoBehaviour
         return raycastHit.collider != null;
     }
 
-    void Movement ()
+    void Movement()
     {
         // Movimiento Player
         if (Input.GetKey("d") || Input.GetKey("right"))
@@ -71,7 +72,7 @@ public class CharacterController : MonoBehaviour
             anim.SetBool("Run", true);
             RotateChildObjects(Quaternion.Euler(0, 180, 0));
         }
-        else 
+        else
         {
             rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, 0.2f), rb.velocity.y);
             anim.SetBool("Run", false);

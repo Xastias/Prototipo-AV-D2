@@ -15,7 +15,7 @@ public class Rasengan : MonoBehaviour
     
     public void Update()
 {
-    if (canShoot && Input.GetButtonDown("Fire1"))
+    if (canShoot && Input.GetKeyDown(KeyCode.R))
     {
         Disparar();
         lastShootTime = Time.time;
