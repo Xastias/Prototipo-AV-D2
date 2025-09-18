@@ -12,9 +12,7 @@ __LO QUE FALTA POR PROGRAMAR Y AGREGAR:__
 - Programar que el jugador reciba daño al caer al vacio que debe saltar en el nivel/escena tutorial.
 
 
-__NOTA:__
-Luego programaré en el nivel tutorial que cuando el jugador se acerque a los objetos esos que parecen una T de madera, aparezca una ventana arriba indicando la acción que debe serguir el jugador
-
-Por Ejemplo. Cuando el jugador se acerque a la T de madera que está señalada en la imagen de abajo, le aparecera una ventana indicandole que puede utilizar la tecla ESPACIO para saltar el vacio y así llegar al otro lado.
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/562cf37b-29d4-4f64-ad84-2acb51975bad" />
+__ACTUALIZACIÓN:__
+- Sea colocado ventanas instructivas sobre los controles en el nivel tutorial para enseñarle al jugador como jugar
+- Ahora en vez dede hacer el combo con R, lo haces con el click izquierdo
+- Ahora en vez dede tirar la bola de fuego con el click izquierdo, lo haces con la R
