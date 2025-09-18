@@ -75,6 +75,7 @@
     <Compile Include="Assets\Script\Script Sket Enemys\PlayerDamage.cs" />
     <Compile Include="Assets\Script\Script Sket Enemys\VidaSkelt.cs" />
     <Compile Include="Assets\Script\HUD.cs" />
+    <Compile Include="Assets\Pixel Adventure 1\Ventanas de info\VentanasTutos.cs" />
     <Compile Include="Assets\Script\Script Sket Enemys\JumpSket.cs" />
     <Compile Include="Assets\Script\Parallax\ParallaxLayer.cs" />
     <Compile Include="Assets\Script\Poderes\Rasengan.cs" />

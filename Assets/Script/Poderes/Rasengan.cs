@@ -30,14 +30,14 @@ public class Rasengan : MonoBehaviour
 
     // Funcion para lanzar y ejecutar la animacion del Katon
     public void Disparar()
-{
-    if (!canShoot)
     {
-        return; // No se puede disparar debido al cooldown
-    }
+        if (!canShoot)
+        {
+            return; // No se puede disparar debido al cooldown
+        }
 
-    anim.SetTrigger("Katon");
-    Instantiate(Bullet, ControladorDisparo.position, ControladorDisparo.rotation);
-}
+        anim.SetTrigger("Katon");
+        Instantiate(Bullet, ControladorDisparo.position, ControladorDisparo.rotation);
+    }
 
 }
