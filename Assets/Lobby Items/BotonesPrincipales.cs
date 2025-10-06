@@ -11,9 +11,4 @@ public class BotonesPrincipales : MonoBehaviour
         SceneManager.LoadScene("Tutorial");
     }
 
-    public void Salir()
-    {
-        Debug.Log("Salir");
-        Application.Quit();
-    }
 }

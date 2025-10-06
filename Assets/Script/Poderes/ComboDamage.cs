@@ -5,7 +5,7 @@ using UnityEngine;
 public class ComboDamage : MonoBehaviour
 {
     // Daño Combo
-    public float Daño1_2;
+    public int Daño1_2;
 
     // DAMAGE COMBO
     private void OnTriggerEnter2D(Collider2D Combo12) 
