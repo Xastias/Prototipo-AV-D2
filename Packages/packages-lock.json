@@ -107,7 +107,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-      "version": "2.8.9",
+      "version": "2.10.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -116,7 +116,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.1.0",
+      "version": "2.5.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -130,7 +130,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.feature.2d": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -145,7 +145,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.25",
+      "version": "3.0.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -154,7 +154,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.21",
+      "version": "2.0.22",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -187,7 +187,7 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "12.1.12",
+      "version": "12.1.15",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -255,7 +255,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.1",
+      "version": "1.9.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {

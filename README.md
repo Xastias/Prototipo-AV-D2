@@ -4,7 +4,6 @@ Nota: Lo subi a github porque aca se permite insertar el juego en cualquier pagi
 
 __LO QUE FALTA POR PROGRAMAR Y AGREGAR:__
 
-- Programar transiciones al cambiar de escena
 - Programar sistema de guardado.
 - Programar sistema de comprar y almacenar pociones de vida, daño y aumento de vida. 
 - Agregar música en el lobby y efectos de sonidos (de espada para el ataque con espada, salto, bola de fuego y recibir daño).
@@ -14,11 +13,6 @@ __LO QUE FALTA POR PROGRAMAR Y AGREGAR:__
 
 
 __ACTUALIZACIÓN:__
-05/10/2025
-- Se ha corregido un error en el sistema de combo que impedia hacer el combo completamente
-- Ahora cuando el jugador llega al final del nivel tutorial, aparece una escena agradeciando haber jugado la demo
-
-
 - Sea colocado ventanas instructivas sobre los controles en el nivel tutorial para enseñarle al jugador como jugar
 - Ahora en vez dede hacer el combo con R, lo haces con el click izquierdo
 - Ahora en vez dede tirar la bola de fuego con el click izquierdo, lo haces con la R
