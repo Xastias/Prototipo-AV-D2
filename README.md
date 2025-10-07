@@ -1,5 +1,4 @@
 __PAGINA DEL JUEGO:__ https://xastias.github.io/Aventura-2D---Jugable/
-Nota: Lo subi a github porque aca se permite insertar el juego en cualquier pagina, eso nos serivrá para la ultima actividad.
 
 
 __LO QUE FALTA POR PROGRAMAR Y AGREGAR:__
@@ -13,9 +12,17 @@ __LO QUE FALTA POR PROGRAMAR Y AGREGAR:__
 
 
 __ACTUALIZACIÓN:__
+
+07/10/2025
+
+
+05/07/2025
+Ahora el player al llegar al final del nivel Tutorial, es llevado a una escena donde aparece un mensaje agradeciendo por a ver jugado el prototipo. Tambien se colocó un botón para volver al lobby/menu principal
+
+??/?6/2025/
 - Sea colocado ventanas instructivas sobre los controles en el nivel tutorial para enseñarle al jugador como jugar
 - Ahora en vez dede hacer el combo con R, lo haces con el click izquierdo
 - Ahora en vez dede tirar la bola de fuego con el click izquierdo, lo haces con la R
 
 
-go
+probando
