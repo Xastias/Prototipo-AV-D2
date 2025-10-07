@@ -22,3 +22,6 @@ __ACTUALIZACIÓN:__
 - Sea colocado ventanas instructivas sobre los controles en el nivel tutorial para enseñarle al jugador como jugar
 - Ahora en vez dede hacer el combo con R, lo haces con el click izquierdo
 - Ahora en vez dede tirar la bola de fuego con el click izquierdo, lo haces con la R
+
+
+go
