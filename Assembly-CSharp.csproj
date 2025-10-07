@@ -58,8 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Script Sket Enemys\EnemyController.cs" />
+    <Compile Include="Assets\Script\QuitT.cs" />
     <Compile Include="Assets\Script\Parallax\ParallaxBackground.cs" />
-    <Compile Include="Assets\Script\Final tutorial\BotonMenu.cs" />
     <Compile Include="Assets\Script\Coin.cs" />
     <Compile Include="Assets\Script\PotyVida.cs" />
     <Compile Include="Assets\Script\HealBar.cs" />
@@ -71,7 +71,6 @@
     <Compile Include="Assets\Script\GameManagerNOT.cs" />
     <Compile Include="Assets\Script\ComboPlayer.cs" />
     <Compile Include="Assets\Script\Script Sket Enemys\Skelet_Enemy.cs" />
-    <Compile Include="Assets\Script\Final tutorial\FinalDeTutorial.cs" />
     <Compile Include="Assets\Script\Script Sket Enemys\EnemyTest\EnemyIA.cs" />
     <Compile Include="Assets\Script\Script Sket Enemys\PlayerDamage.cs" />
     <Compile Include="Assets\Script\Script Sket Enemys\VidaSkelt.cs" />

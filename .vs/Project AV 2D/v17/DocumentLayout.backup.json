@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\davri\\Music\\Project AV 2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|c:\\users\\davri\\music\\project av 2d\\assets\\script\\final tutorial\\botonmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\final tutorial\\botonmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|c:\\users\\davri\\music\\project av 2d\\assets\\pixel adventure 1\\ventanas de info\\ventanastutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\ventanas de info\\ventanastutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Project AV 2D\\assets\\lobby items\\botonesprincipales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\lobby items\\botonesprincipales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|c:\\users\\davri\\music\\project av 2d\\assets\\script\\final tutorial\\finaldetutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\final tutorial\\finaldetutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Project AV 2D\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|c:\\users\\davri\\music\\project av 2d\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Project AV 2D\\assets\\script\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Project AV 2D\\assets\\script\\poderes\\rasengan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\poderes\\rasengan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Project AV 2D\\assets\\script\\comboplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1378B68C-8A03-1B83-BFD0-B50C3838211D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\comboplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BotonMenu.cs",
-              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Final tutorial\\BotonMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Final tutorial\\BotonMenu.cs",
-              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Final tutorial\\BotonMenu.cs",
-              "RelativeToolTip": "Assets\\Script\\Final tutorial\\BotonMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Title": "VentanasTutos.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Pixel Adventure 1\\Ventanas de info\\VentanasTutos.cs",
+              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Ventanas de info\\VentanasTutos.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Pixel Adventure 1\\Ventanas de info\\VentanasTutos.cs",
+              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Ventanas de info\\VentanasTutos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T20:42:27.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FinalDeTutorial.cs",
-              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Final tutorial\\FinalDeTutorial.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Final tutorial\\FinalDeTutorial.cs",
-              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Final tutorial\\FinalDeTutorial.cs",
-              "RelativeToolTip": "Assets\\Script\\Final tutorial\\FinalDeTutorial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T20:41:57.905Z",
+              "WhenOpened": "2025-09-17T02:05:38.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BotonesPrincipales.cs",
-              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Lobby Items\\BotonesPrincipales.cs",
-              "RelativeDocumentMoniker": "Assets\\Lobby Items\\BotonesPrincipales.cs",
-              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Lobby Items\\BotonesPrincipales.cs",
-              "RelativeToolTip": "Assets\\Lobby Items\\BotonesPrincipales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:41:20.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
               "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T21:49:34.396Z"
+              "WhenOpened": "2025-09-16T21:49:34.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\CharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacterController.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\CharacterController.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T21:28:27.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ComboPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\ComboPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ComboPlayer.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\ComboPlayer.cs",
+              "RelativeToolTip": "Assets\\Script\\ComboPlayer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T21:19:19.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rasengan.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Poderes\\Rasengan.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Poderes\\Rasengan.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Project AV 2D\\Assets\\Script\\Poderes\\Rasengan.cs",
+              "RelativeToolTip": "Assets\\Script\\Poderes\\Rasengan.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T21:21:18.427Z"
             }
           ]
         }
