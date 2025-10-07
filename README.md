@@ -13,7 +13,7 @@ __LO QUE FALTA POR PROGRAMAR Y AGREGAR:__
 
 __ACTUALIZACIÓN:__
 
-- 07/10/2025
+__07/10/2025__
 Se corrigió la referencia visual en GameManager: la barra de fondo estaba asignada al slot de la barra de vida roja del player.
 
 Se arregló la lógica para que el Collider2D con la propiedad isTrigger que inflige daño al jugador no se destruya automáticamente tras ejecutar el evento de daño.
@@ -29,7 +29,7 @@ El botón "Continuar" ahora cierra la ventana de clase, permitiendo al jugador a
 Se solucionó en el GameManager un código para que el objeto Player no sea trasladado automáticamente a la nueva escena al realizar un cambio de escena
 
 
-- 06/07/2025
+__06/07/2025__
 Se agregaron clases al juego y según el daño recibido, se asigna una clase:
 •	Caballero Mágico: Se obtiene usando la espada y bola de fuego
 
@@ -40,11 +40,11 @@ Se agregaron clases al juego y según el daño recibido, se asigna una clase:
 •	Asesino: Se obtiene usando la espada y NO recibió daño
 
 
-- 05/07/2025
+__05/07/2025__
 Ahora el player al llegar al final del nivel Tutorial, es llevado a una escena donde aparece un mensaje agradeciendo por a ver jugado el prototipo. Tambien se colocó un botón para volver al lobby/menu principal
 
 
-- ??/06/2025/
+__??/06/2025__
 - Sea colocado ventanas instructivas sobre los controles en el nivel tutorial para enseñarle al jugador como jugar
 - Ahora en vez dede hacer el combo con R, lo haces con el click izquierdo
 - Ahora en vez dede tirar la bola de fuego con el click izquierdo, lo haces con la R
