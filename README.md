@@ -3,17 +3,28 @@ __PAGINA DEL JUEGO:__ https://xastias.github.io/Aventura-2D---Jugable/
 
 __LO QUE FALTA POR PROGRAMAR Y AGREGAR:__
 
-- Programar sistema de guardado.
-- Programar sistema de comprar y almacenar pociones de vida, daño y aumento de vida. 
-- Agregar música en el lobby y efectos de sonidos (de espada para el ataque con espada, salto, bola de fuego y recibir daño).
-- Programar/agregar ventana o Escena de Gamer Over al tener 0 de vida y boton de volver a jugar y volver al menu.
-- Agregar ventana para el boton de "Opciones" donde esté lo siguiente: Quitar la música, Quitar los efectos de sonido, cambiar resolución y limitar fps
-- Programar que el jugador reciba daño al caer al vacio que debe saltar en el nivel/escena tutorial.
+__Luis:__
+- Agregar ventana para el botón de "Opciones" donde esté lo siguiente: Quitar la música, Quitar los efectos de sonido, cambiar resolución y limitar fps
+- Programar/agregar ventana o Escena de Gamer Over al tener 0 de vida y botón de volver a jugar y volver al menú
+- 1 nivel (el nivel 1) +  nivel 4 (el nivel del boss)
+
+__Nallith:__
+- Modificar la apariencia del personaje de acuerdo a la clase (esto implica hacer animaciones de walk, idle, run y attack para cada clase)
+- Agregar habilidades de acuerdo a la clase
+- Botón para cambiar de clase
+- 2 niveles (el nivel 2 y 3)
 
 
-__ACTUALIZACIÓN:__
+__ACTUALIZACIÓNES:__
+
+__13/10/2025__
+- Se añadió la ventana de Opciones donde se puede modificar el volumen de la musica y los efectos. Esta se activa presionando el botón "Opciones" o presionando la tecla Esc.
+- Se agregó música de fondo en la escena Lobby y Nivel 1
+- Se creó una escena llamada "Platilla" para construir los niveles fácilmente.
+- Sea creado un Script "PersistentObjectsUtility" para que los elementos como el AudioManager, HUD, Camara y otros GameObjects, de esta forma los datos como la barra de vida, el volumen del audio, etc, se mantienen y pueden modificarse en cualquier escena.
 
 __07/10/2025__
+
 Se corrigió la referencia visual en GameManager: la barra de fondo estaba asignada al slot de la barra de vida roja del player.
 
 Se arregló la lógica para que el Collider2D con la propiedad isTrigger que inflige daño al jugador no se destruya automáticamente tras ejecutar el evento de daño.
@@ -30,6 +41,7 @@ Se solucionó en el GameManager un código para que el objeto Player no sea tras
 
 
 __06/07/2025__
+
 Se agregaron clases al juego y según el daño recibido, se asigna una clase:
 •	Caballero Mágico: Se obtiene usando la espada y bola de fuego
 
