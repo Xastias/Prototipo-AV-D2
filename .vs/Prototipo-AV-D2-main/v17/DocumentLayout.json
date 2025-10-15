@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5350FB5F-A98D-C6A1-C73C-199FFCF1EA31}|Assembly-CSharp-Editor.csproj|c:\\users\\davri\\music\\prototipo-av-d2-main\\assets\\editor\\persistentobjectsutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5350FB5F-A98D-C6A1-C73C-199FFCF1EA31}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\persistentobjectsutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D0F610-81D8-E43C-4728-8924D87BAF1B}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\assets\\songs\\audiomanagerbootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D0F610-81D8-E43C-4728-8924D87BAF1B}|Assembly-CSharp.csproj|solutionrelative:assets\\songs\\audiomanagerbootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D0F610-81D8-E43C-4728-8924D87BAF1B}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\assets\\script\\lobby men\u00FA\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D0F610-81D8-E43C-4728-8924D87BAF1B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\lobby men\u00FA\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D0F610-81D8-E43C-4728-8924D87BAF1B}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\assets\\script\\lobby men\u00FA\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D0F610-81D8-E43C-4728-8924D87BAF1B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\lobby men\u00FA\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D0F610-81D8-E43C-4728-8924D87BAF1B}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\assets\\lobby items\\botonesprincipales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D0F610-81D8-E43C-4728-8924D87BAF1B}|Assembly-CSharp.csproj|solutionrelative:assets\\lobby items\\botonesprincipales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersistentObjectsUtility.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Editor\\PersistentObjectsUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\PersistentObjectsUtility.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Editor\\PersistentObjectsUtility.cs",
+              "RelativeToolTip": "Assets\\Editor\\PersistentObjectsUtility.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwHcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T21:00:16.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AudioManagerBootstrap.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Songs\\AudioManagerBootstrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Songs\\AudioManagerBootstrap.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Songs\\AudioManagerBootstrap.cs",
+              "RelativeToolTip": "Assets\\Songs\\AudioManagerBootstrap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:55:34.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Script\\Lobby Men\u00FA\\SettingsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Lobby Men\u00FA\\SettingsMenu.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Script\\Lobby Men\u00FA\\SettingsMenu.cs",
+              "RelativeToolTip": "Assets\\Script\\Lobby Men\u00FA\\SettingsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T23:51:27.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Script\\Lobby Men\u00FA\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Lobby Men\u00FA\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Script\\Lobby Men\u00FA\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Lobby Men\u00FA\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T23:49:40.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BotonesPrincipales.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Lobby Items\\BotonesPrincipales.cs",
+              "RelativeDocumentMoniker": "Assets\\Lobby Items\\BotonesPrincipales.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Prototipo-AV-D2-main\\Assets\\Lobby Items\\BotonesPrincipales.cs",
+              "RelativeToolTip": "Assets\\Lobby Items\\BotonesPrincipales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T16:28:31.843Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

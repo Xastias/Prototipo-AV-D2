@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            
         }
         else
         {
@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(0);
         }
     }
 
@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
     // --- LÓGICA DE FIN DE TUTORIAL ---
     public void OnEnemyDefeated()
     {
-        Debug.Log("Enemigo derrotado. Evaluando rendimiento...");
+        //Debug.Log("Enemigo derrotado. Evaluando rendimiento...");
         EvaluatePlayerPerformance();
     }
 
@@ -95,7 +95,7 @@ public class GameManager : MonoBehaviour
         }
         else if (player.usedFireball)
         {
-            className = (player.damageTaken > 0) ? "Berserker Arcano" : "Mago";
+            className = (player.damageTaken > 0) ? "Arcano" : "Mago";
             description = (player.damageTaken > 0) ? 
                 "Un mago que se sumerge en el caos, soportando dolor para desatar un poder devastador." :
                 "Un erudito de las artes arcanas. Derrotó a su enemigo desde una distancia segura, con precisión impecable.";
@@ -122,7 +122,16 @@ public class GameManager : MonoBehaviour
     public void OnContinueButtonClicked()
     {
         Time.timeScale = 1f;
-        Debug.Log("Reiniciando el tutorial...");
+        //Debug.Log("Reiniciando el tutorial...");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void OnClassIconClicked()
+    {
+        if (endScreenPanel != null)
+        {
+            endScreenPanel.SetActive(false);
+            Time.timeScale = 1f;
+        }
     }
 }

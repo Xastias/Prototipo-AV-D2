@@ -27,7 +27,7 @@ public class PlayerDamage : MonoBehaviour
                 // Destruir este objeto después de hacer daño.
                 // Esto evita que el jugador reciba daño continuamente cada frame
                 // mientras permanezca en el área de ataque del enemigo.
-                Destroy(gameObject);
+                //Destroy(gameObject);
             }
         }
     }

@@ -12,7 +12,7 @@ public class CharacterController : MonoBehaviour
     [Header("Estadísticas de Combate (Tutorial)")]
     public bool usedSword = false;
     public bool usedFireball = false;
-    public float damageTaken = 0f;
+    public float damageTaken = 0;
 
     [Header("Movimiento")]
     public float speed = 5;
@@ -28,6 +28,9 @@ public class CharacterController : MonoBehaviour
     private bool wasGrounded = false;
     private bool jumpPressed = false;
 
+    private Coroutine swordCoroutine;
+    private Coroutine fireballCoroutine;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -36,19 +39,18 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
-        // --- Rastrear el uso de habilidades ---
         // Bola de fuego con la tecla 'R'
         if (Input.GetKeyDown(KeyCode.R))
         {
-            usedFireball = true;
-            Debug.Log("Bola de fuego usada.");
+            CastFireball();
+            //Debug.Log("Bola de fuego usada.");
         }
 
         // Espada con el clic izquierdo del ratón
         if (Input.GetMouseButtonDown(0))
         {
-            usedSword = true;
-            Debug.Log("Espada usada.");
+            AttackWithSword();
+            //Debug.Log("Espada usada.");
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -133,7 +135,37 @@ public class CharacterController : MonoBehaviour
     public void TakeDamage(float damage)
     {
         damageTaken += damage;
-        Debug.Log("Daño recibido. Total: " + damageTaken);
+        //Debug.Log("Daño recibido. Total: " + damageTaken);
         // Aquí podrías añadir lógica de knockback, invulnerabilidad, etc.
+    }
+
+    // Ejemplo de método para atacar con espada
+    public void AttackWithSword()
+    {
+        usedSword = true;
+        if (swordCoroutine != null) StopCoroutine(swordCoroutine);
+        swordCoroutine = StartCoroutine(ResetUsedSword());
+        // Lógica de ataque con espada...
+    }
+
+    // Ejemplo de método para lanzar fireball
+    public void CastFireball()
+    {
+        usedFireball = true;
+        if (fireballCoroutine != null) StopCoroutine(fireballCoroutine);
+        fireballCoroutine = StartCoroutine(ResetUsedFireball());
+        // Lógica de lanzamiento de fireball...
+    }
+
+    private IEnumerator ResetUsedSword()
+    {
+        yield return new WaitForSeconds(5f);
+        usedSword = false;
+    }
+
+    private IEnumerator ResetUsedFireball()
+    {
+        yield return new WaitForSeconds(5f);
+        usedFireball = false;
     }
 }

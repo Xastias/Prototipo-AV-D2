@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class FinalDeTutorial : MonoBehaviour
 {
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -15,3 +16,4 @@ public class FinalDeTutorial : MonoBehaviour
         }
     }
 }
+
