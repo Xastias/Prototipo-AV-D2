@@ -7,7 +7,10 @@ __Luis:__
 - Agregar ventana para el botón de "Opciones" donde esté lo siguiente: Quitar la música, Quitar los efectos de sonido, cambiar resolución y limitar fps
 - Agregar Musica de fondo en cada nivel y efectos de sonido
 - Programar/agregar ventana o Escena de Gamer Over al tener 0 de vida y botón de volver a jugar y volver al menú
-- 1 nivel (el nivel 1) +  nivel 4 (el nivel del boss)
+- Nivel 5 (el nivel del boss)
+
+__Santiago:__
+Nivel 1 y 4
 
 __Nallith:__
 - Modificar la apariencia del personaje de acuerdo a la clase (esto implica hacer animaciones de walk, idle, run y attack para cada clase)
