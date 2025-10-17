@@ -62,6 +62,7 @@
     <Compile Include="Assets\Script\EndScreenPlayerDestroyer.cs" />
     <Compile Include="Assets\Script\Lobby Menú\SceneMusic.cs" />
     <Compile Include="Assets\Script\QuitT.cs" />
+    <Compile Include="Assets\Script\Final tutorial\level4.cs" />
     <Compile Include="Assets\EnemyHealth2D.cs" />
     <Compile Include="Assets\Script\Parallax\ParallaxBackground.cs" />
     <Compile Include="Assets\Script\Final tutorial\BotonMenu.cs" />
@@ -95,7 +96,6 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Script\DamageObj.cs" />
     <Compile Include="Assets\Script\Parallax\ParallaxCamera.cs" />
-    <Compile Include="Assets\Script\Final tutorial\level4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

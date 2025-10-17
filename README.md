@@ -10,13 +10,15 @@ __Luis:__
 - Nivel 5 (el nivel del boss)
 
 __Santiago:__
-Nivel 1 y 4
+
+
+__Juan:__
+
 
 __Nallith:__
 - Modificar la apariencia del personaje de acuerdo a la clase (esto implica hacer animaciones de walk, idle, run y attack para cada clase)
 - Agregar habilidades de acuerdo a la clase
 - Botón para cambiar de clase
-- 2 niveles (el nivel 2 y 3)
 
 
 __ACTUALIZACIÓNES:__
