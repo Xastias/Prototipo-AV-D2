@@ -9,12 +9,6 @@ __Luis:__
 - Programar/agregar ventana o Escena de Gamer Over al tener 0 de vida y botón de volver a jugar y volver al menú
 - Nivel 5 (el nivel del boss)
 
-__Santiago:__
-
-
-__Juan:__
-
-
 __Nallith:__
 - Modificar la apariencia del personaje de acuerdo a la clase (esto implica hacer animaciones de walk, idle, run y attack para cada clase)
 - Agregar habilidades de acuerdo a la clase
