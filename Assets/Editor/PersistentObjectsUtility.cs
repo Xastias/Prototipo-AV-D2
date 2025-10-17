@@ -10,14 +10,16 @@ using System.Linq;
 [InitializeOnLoad]
 public static class PersistentObjectsUtility
 {
-    // 📦 Prefabs persistentes a insertar automáticamente
+    // Prefabs persistentes a insertar automáticamente
     private static readonly string[] persistentPrefabs = {
         "Assets/Resources/AudioManager.prefab",
         "Assets/Resources/HUD.prefab",
         "Assets/Resources/PLAYER.prefab",
         "Assets/Resources/Main Camera.prefab",
         "Assets/Resources/CamaraLimit.prefab",
-        "Assets/Resources/CM vcam1.prefab"
+        "Assets/Resources/CM vcam1.prefab",
+        "Assets/Resources/Menu Opciones.prefab",
+        "Assets/Resources/EventSystem.prefab"
     };
 
     // Escenas donde NO se agregan estos objetos
@@ -65,7 +67,7 @@ public static class PersistentObjectsUtility
 
         foreach (var cam in defaultCameras)
         {
-            //Debug.Log($"🗑️ Eliminada cámara por defecto: {cam.gameObject.name}");
+            //Debug.Log($" Eliminada cámara por defecto: {cam.gameObject.name}");
             Object.DestroyImmediate(cam.gameObject);
         }
 
@@ -75,7 +77,7 @@ public static class PersistentObjectsUtility
             GameObject prefab = LoadPrefab(prefabPath);
             if (prefab == null)
             {
-                //Debug.LogWarning($"❌ Prefab no encontrado: {prefabPath}");
+                //Debug.LogWarning($" Prefab no encontrado: {prefabPath}");
                 continue;
             }
 
@@ -99,7 +101,7 @@ public static class PersistentObjectsUtility
             }
 
             Undo.RegisterCreatedObjectUndo(instance, "Add Persistent Object");
-            //Debug.Log($"✅ '{prefabName}' agregado a la escena '{scene.name}'");
+            //Debug.Log($" '{prefabName}' agregado a la escena '{scene.name}'");
         }
     }
 

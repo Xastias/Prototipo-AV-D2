@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A4CD5753-7728-2124-F7C5-9239050D651F}</ProjectGuid>
+    <ProjectGuid>{CE12B5BE-CAAF-E65A-CA46-60F76DFF19F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>FullscreenEditor</AssemblyName>

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F069C5BA-9D5C-1F4B-D1D3-C2947C86FA2B}|Assembly-CSharp-Editor.csproj|c:\\users\\davri\\music\\demo\\prototipo-av-d2\\assets\\editor\\persistentobjectsutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F069C5BA-9D5C-1F4B-D1D3-C2947C86FA2B}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\persistentobjectsutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA7DF8-790D-0564-6165-04B1656FC900}|Assembly-CSharp.csproj|C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\assets\\lobby items\\botonesprincipales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA7DF8-790D-0564-6165-04B1656FC900}|Assembly-CSharp.csproj|solutionrelative:assets\\lobby items\\botonesprincipales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BotonesPrincipales.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\Assets\\Lobby Items\\BotonesPrincipales.cs",
+              "RelativeDocumentMoniker": "Assets\\Lobby Items\\BotonesPrincipales.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\Assets\\Lobby Items\\BotonesPrincipales.cs",
+              "RelativeToolTip": "Assets\\Lobby Items\\BotonesPrincipales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T02:21:53.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersistentObjectsUtility.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\Assets\\Editor\\PersistentObjectsUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\PersistentObjectsUtility.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\Assets\\Editor\\PersistentObjectsUtility.cs",
+              "RelativeToolTip": "Assets\\Editor\\PersistentObjectsUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:44:51.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

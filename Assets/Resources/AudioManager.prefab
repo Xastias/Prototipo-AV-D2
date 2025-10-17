@@ -182,6 +182,14 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: 238f956d8e53022498c5e8bf81c0ff50, type: 3}
   - sceneName: Tutorial
     musicClip: {fileID: 8300000, guid: 029b52a85378d8348a402e32e6696dff, type: 3}
+  - sceneName: Nivel 1
+    musicClip: {fileID: 8300000, guid: 029b52a85378d8348a402e32e6696dff, type: 3}
+  - sceneName: Nivel 4
+    musicClip: {fileID: 8300000, guid: 029b52a85378d8348a402e32e6696dff, type: 3}
+  - sceneName: Nivel 3
+    musicClip: {fileID: 0}
+  - sceneName: Nivel 4
+    musicClip: {fileID: 0}
 --- !u!1 &8594754457477469716
 GameObject:
   m_ObjectHideFlags: 0

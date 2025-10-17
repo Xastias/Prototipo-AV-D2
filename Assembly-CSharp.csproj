@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E2D0F610-81D8-E43C-4728-8924D87BAF1B}</ProjectGuid>
+    <ProjectGuid>{1AFA7DF8-790D-0564-6165-04B1656FC900}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Script\DamageObj.cs" />
     <Compile Include="Assets\Script\Parallax\ParallaxCamera.cs" />
+    <Compile Include="Assets\Script\Final tutorial\level4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1156,7 +1157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="FullscreenEditor.csproj">
-      <Project>{A4CD5753-7728-2124-F7C5-9239050D651F}</Project>
+      <Project>{CE12B5BE-CAAF-E65A-CA46-60F76DFF19F8}</Project>
       <Name>FullscreenEditor</Name>
     </ProjectReference>
   </ItemGroup>

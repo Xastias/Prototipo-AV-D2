@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5350FB5F-A98D-C6A1-C73C-199FFCF1EA31}</ProjectGuid>
+    <ProjectGuid>{F069C5BA-9D5C-1F4B-D1D3-C2947C86FA2B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -1180,11 +1180,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E2D0F610-81D8-E43C-4728-8924D87BAF1B}</Project>
+      <Project>{1AFA7DF8-790D-0564-6165-04B1656FC900}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="FullscreenEditor.csproj">
-      <Project>{A4CD5753-7728-2124-F7C5-9239050D651F}</Project>
+      <Project>{CE12B5BE-CAAF-E65A-CA46-60F76DFF19F8}</Project>
       <Name>FullscreenEditor</Name>
     </ProjectReference>
   </ItemGroup>
