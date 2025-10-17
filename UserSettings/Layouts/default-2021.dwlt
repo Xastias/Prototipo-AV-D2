@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 22
+  controlID: 140
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 117
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 39
+  controlID: 118
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -434,9 +434,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: feb10000
-      m_LastClickedID: 45566
-      m_ExpandedIDs: be37ffff403affff2c3dffff0040ffff2c5dffff8e61ffff0e65ffff8267ffffa469ffffc46bffffe46dfffff46fffffb672ffff1e74fffff8f9ffff2c6c0000606c0000b06c0000e86c0000f66c000090a6000088b20000
+      m_SelectedIDs: 80dcffff
+      m_LastClickedID: -9088
+      m_ExpandedIDs: 8addffffb8dfffffc2e1ffff32e4ffff8eefffff04f6fffff2f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -752,9 +752,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.094966024, y: 2.6949632, z: -0.14904583}
+    m_Target: {x: 3.2279704, y: 3.1905975, z: -0.08269352}
     speed: 2
-    m_Value: {x: 0.32603174, y: 3.15117, z: -0.14209019}
+    m_Value: {x: 2.9328427, y: 3.0364056, z: -0.07859802}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -805,9 +805,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.152622
+    m_Target: 9.510681
     speed: 2
-    m_Value: 15.457055
+    m_Value: 9.1011305
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -866,7 +866,7 @@ MonoBehaviour:
   m_Zoom: 0.8756757
   m_ScrollPosition: {x: 0, y: 0}
   m_SelectedObject: {fileID: 0}
-  m_SelectedSpriteRectGUID: 1103fd5bfc5e89d4897ece594403ea4d
+  m_SelectedSpriteRectGUID: 00000000000000000000000000000000
   m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpriteFrameModule
 --- !u!114 &17
 MonoBehaviour:
@@ -1251,9 +1251,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48740000
-    m_LastClickedID: 29768
-    m_ExpandedIDs: 00000000a4720000a67200004874000000ca9a3b
+    m_SelectedIDs: 7e740000
+    m_LastClickedID: 29822
+    m_ExpandedIDs: 00000000cc720000ce72000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1281,7 +1281,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a4720000a6720000
+    m_ExpandedIDs: 00000000cc720000ce720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
