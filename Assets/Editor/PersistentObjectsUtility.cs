@@ -37,21 +37,24 @@ public static class PersistentObjectsUtility
 
     private static void OnSceneOpened(Scene scene, OpenSceneMode mode)
     {
-        // Ejecutar solo cuando se abre una escena desde el editor
         if (Application.isPlaying) return;
         if (isProcessing) return;
 
         isProcessing = true;
         EditorApplication.delayCall += () =>
         {
-            try
+            // Espera un poco más para evitar conflicto con el render
+            EditorApplication.delayCall += () =>
             {
-                AddPersistentObjects(scene);
-            }
-            finally
-            {
-                isProcessing = false;
-            }
+                try
+                {
+                    AddPersistentObjects(scene);
+                }
+                finally
+                {
+                    isProcessing = false;
+                }
+            };
         };
     }
 
