@@ -14,6 +14,11 @@ __Nallith:__
 - Agregar habilidades de acuerdo a la clase
 - Botón para cambiar de clase
 
+__Santiago:__
+- Nivel 1 y 2
+
+__Juan:__
+- Nivel 3 y 4
 
 __ACTUALIZACIÓNES:__
 
