@@ -79,4 +79,24 @@ public class BotonesPrincipales : MonoBehaviour
     {
         SceneManager.LoadScene("Tutorial");
     }
+
+    // Poner o quitar la pantalla completa
+    public void PonerPantallaCompleta(bool pantallaCompleta)
+    {
+        
+        if (pantallaCompleta)
+        {
+            Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+            Screen.fullScreen = true;
+        }
+        else
+        {
+            Screen.fullScreen = false;
+        }
+    }
+
+    public void AlternarPantallaCompleta()
+    {
+        PonerPantallaCompleta(!Screen.fullScreen);
+    }
 }

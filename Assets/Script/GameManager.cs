@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using TMPro; // <-- ¡IMPORTANTE! Añadido para usar TextMeshPro
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
         if (healthText != null) healthText.text = currentHealth.ToString("f0") + "/" + maxHealth.ToString("f0");
     }
 
-    // --- LÓGICA DE FIN DE TUTORIAL ---
+    // --- LÓGICA DE LAS CLASES ---
     public void OnEnemyDefeated()
     {
         //Debug.Log("Enemigo derrotado. Evaluando rendimiento...");
@@ -85,6 +85,18 @@ public class GameManager : MonoBehaviour
 
     void EvaluatePlayerPerformance()
     {
+        // Ejecutar sólo si estamos en la escena "Lobby"
+        if (SceneManager.GetActiveScene().name != "Tutorial")
+        {
+            return;
+        }
+
+        if (player == null)
+        {
+            Debug.LogWarning("GameManager: referencia 'player' no asignada. Imposible evaluar rendimiento.");
+            return;
+        }
+
         string className = "Milagroso";
         string description = "¿Cómo lo hiciste? La victoria cayó del cielo. Eres un enigma.";
 

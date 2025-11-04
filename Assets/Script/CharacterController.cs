@@ -9,6 +9,13 @@ public class CharacterController : MonoBehaviour
     private Rigidbody2D rb;
     public SpriteRenderer sp;
 
+    [Header("Sonido")]
+    public AudioSource Pasos;
+    public float tiempoEntrePasos = 0.4f; // intervalo entre sonidos
+    private float contadorPasos = 0f;
+    public AudioSource SonidoSalto;
+
+
     [Header("Estadísticas de Combate (Tutorial)")]
     public bool usedSword = false;
     public bool usedFireball = false;
@@ -19,7 +26,7 @@ public class CharacterController : MonoBehaviour
     public float jumpForce = 5;
     private BoxCollider2D BC;
     public LayerMask isGrounded;
-    
+
     // Doble salto
     private int jumpCount = 0;
     private int maxJumps = 2;
@@ -35,22 +42,21 @@ public class CharacterController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         BC = GetComponent<BoxCollider2D>();
+        Pasos = GetComponent<AudioSource>();
+        if (Pasos == null) Pasos = GetComponent<AudioSource>();
+        // Si hay otro AudioSource para salto, no hace falta asignarlo aquí.
     }
 
     void Update()
     {
-        // Bola de fuego con la tecla 'R'
         if (Input.GetKeyDown(KeyCode.R))
         {
             CastFireball();
-            //Debug.Log("Bola de fuego usada.");
         }
 
-        // Espada con el clic izquierdo del ratón
         if (Input.GetMouseButtonDown(0))
         {
             AttackWithSword();
-            //Debug.Log("Espada usada.");
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -69,44 +75,59 @@ public class CharacterController : MonoBehaviour
 
     bool Grounded()
     {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(BC.bounds.center, new Vector2(BC.bounds.size.x, BC.bounds.size.y), 0f, Vector2.down, 0.1f, isGrounded);
+        RaycastHit2D raycastHit = Physics2D.BoxCast(
+            BC.bounds.center,
+            new Vector2(BC.bounds.size.x, BC.bounds.size.y),
+            0f,
+            Vector2.down,
+            0.1f,
+            isGrounded
+        );
         return raycastHit.collider != null;
     }
 
     void Movement()
     {
-        // Movimiento Player
+        bool isGroundedNow = Grounded();
+        bool movingHorizontally = Input.GetKey("a") || Input.GetKey("left") || Input.GetKey("d") || Input.GetKey("right");
+
+        float horizontalInput = 0;
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, speed, 0.2f), rb.velocity.y);
+            horizontalInput = 1;
             sp.flipX = false;
-            anim.SetBool("Run", true);
             RotateChildObjects(Quaternion.identity);
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, -speed, 0.2f), rb.velocity.y);
+            horizontalInput = -1;
             sp.flipX = true;
-            anim.SetBool("Run", true);
             RotateChildObjects(Quaternion.Euler(0, 180, 0));
+        }
+
+        // --- Movimiento ---
+        rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, horizontalInput * speed, 0.2f), rb.velocity.y);
+
+        // --- Animaciones ---
+        anim.SetBool("Run", movingHorizontally && isGroundedNow);
+        anim.SetBool("Jump", !isGroundedNow);
+
+        // --- Sonido de pasos ---
+        if (movingHorizontally && isGroundedNow)
+        {
+            contadorPasos -= Time.fixedDeltaTime;
+            if (contadorPasos <= 0f)
+            {
+                Pasos.Play();
+                contadorPasos = tiempoEntrePasos;
+            }
         }
         else
         {
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, 0.2f), rb.velocity.y);
-            anim.SetBool("Run", false);
+            contadorPasos = 0f; // reiniciar cuando no camina o salta
         }
 
-        void RotateChildObjects(Quaternion rotation)
-        {
-            foreach (Transform child in transform)
-            {
-                child.rotation = rotation;
-            }
-        }
-
-        // Doble salto
-        bool isGroundedNow = Grounded();
-
+        // --- Salto ---
         if (isGroundedNow && !wasGrounded)
         {
             jumpCount = 0;
@@ -120,41 +141,48 @@ public class CharacterController : MonoBehaviour
             jumpCount++;
             anim.SetBool("Jump", true);
             jumpCooldown = jumpCooldownDuration;
-        }
-        else if (!isGroundedNow)
-        {
-            anim.SetBool("Jump", true);
-            anim.SetBool("Run", false);
+
+            // Detenemos los pasos al saltar
+            if (Pasos.isPlaying)
+                Pasos.Stop();
+
+            // Reproducir sonido de salto (solo una vez por salto)
+            if (SonidoSalto != null)
+                SonidoSalto.Play();
         }
 
         wasGrounded = isGroundedNow;
+
+        // --- Rotación hijos ---
+        void RotateChildObjects(Quaternion rotation)
+        {
+            foreach (Transform child in transform)
+            {
+                child.rotation = rotation;
+            }
+        }
     }
 
     // --- Función para recibir daño ---
-    // El enemigo deberá llamar a esta función para hacer daño al jugador
     public void TakeDamage(float damage)
     {
         damageTaken += damage;
-        //Debug.Log("Daño recibido. Total: " + damageTaken);
-        // Aquí podrías añadir lógica de knockback, invulnerabilidad, etc.
     }
 
-    // Ejemplo de método para atacar con espada
+    // --- Ataque con espada ---
     public void AttackWithSword()
     {
         usedSword = true;
         if (swordCoroutine != null) StopCoroutine(swordCoroutine);
         swordCoroutine = StartCoroutine(ResetUsedSword());
-        // Lógica de ataque con espada...
     }
 
-    // Ejemplo de método para lanzar fireball
+    // --- Lanzamiento de fireball ---
     public void CastFireball()
     {
         usedFireball = true;
         if (fireballCoroutine != null) StopCoroutine(fireballCoroutine);
         fireballCoroutine = StartCoroutine(ResetUsedFireball());
-        // Lógica de lanzamiento de fireball...
     }
 
     private IEnumerator ResetUsedSword()

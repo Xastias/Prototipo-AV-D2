@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F069C5BA-9D5C-1F4B-D1D3-C2947C86FA2B}|Assembly-CSharp-Editor.csproj|c:\\users\\davri\\music\\demo\\prototipo-av-d2\\assets\\editor\\persistentobjectsutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F069C5BA-9D5C-1F4B-D1D3-C2947C86FA2B}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\persistentobjectsutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA7DF8-790D-0564-6165-04B1656FC900}|Assembly-CSharp.csproj|c:\\users\\davri\\music\\demo\\prototipo-av-d2\\assets\\scenes\\transicionscena\\skipscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA7DF8-790D-0564-6165-04B1656FC900}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\transicionscena\\skipscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PersistentObjectsUtility.cs",
-              "DocumentMoniker": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\Assets\\Editor\\PersistentObjectsUtility.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\PersistentObjectsUtility.cs",
-              "ToolTip": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\Assets\\Editor\\PersistentObjectsUtility.cs",
-              "RelativeToolTip": "Assets\\Editor\\PersistentObjectsUtility.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAqwIMAAAAAAAAAAAAAAA==",
+              "Title": "SkipScene.cs",
+              "DocumentMoniker": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\Assets\\Scenes\\TransicionScena\\SkipScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\TransicionScena\\SkipScene.cs",
+              "ToolTip": "C:\\Users\\davri\\Music\\Demo\\Prototipo-AV-D2\\Assets\\Scenes\\TransicionScena\\SkipScene.cs",
+              "RelativeToolTip": "Assets\\Scenes\\TransicionScena\\SkipScene.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T01:01:23.89Z",
+              "WhenOpened": "2025-11-03T22:31:12.194Z",
               "EditorCaption": ""
             }
           ]

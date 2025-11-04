@@ -24,7 +24,7 @@ public static class PersistentObjectsUtility
 
     // Escenas donde NO se agregan estos objetos
     private static readonly string[] excludedScenes = {
-        "Lobby"
+        "Lobby","IntroTexto"
     };
 
     // Bandera para evitar ejecuciones múltiples simultáneas
