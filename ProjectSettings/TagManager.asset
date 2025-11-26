@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - 'isGrounded '
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2203778929
+    locked: 0
+  - name: Particles
+    uniqueID: 3677099197
+    locked: 0
+  - name: Fondo fondo
+    uniqueID: 290352595
+    locked: 0
+  - name: Fondo P
+    uniqueID: 1212256949
+    locked: 0
+  - name: Objetos
+    uniqueID: 2677195521
+    locked: 0
